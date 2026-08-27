@@ -1,0 +1,206 @@
+{
+  "detectors": [
+    {
+      "set": "A_raw",
+      "n_features": 52,
+      "pca_k": 31,
+      "FAR": 0.02109375
+    },
+    {
+      "set": "B_residuals",
+      "n_features": 6,
+      "pca_k": 5,
+      "FAR": 0.0215625
+    },
+    {
+      "set": "C_raw+resid",
+      "n_features": 58,
+      "pca_k": 32,
+      "FAR": 0.02190625
+    },
+    {
+      "set": "D_all+temporal",
+      "n_features": 112,
+      "pca_k": 50,
+      "FAR": 0.014164572864321608
+    }
+  ],
+  "detection_by_fault": [
+    {
+      "fault": 1,
+      "description": "A/C Feed ratio, B composition constant (Step)",
+      "A_raw": 0.99759375,
+      "B_residuals": 0.99640625,
+      "C_raw+resid": 0.99734375,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 2,
+      "description": "B composition, A/C ratio constant (Step)",
+      "A_raw": 0.9875,
+      "B_residuals": 0.977,
+      "C_raw+resid": 0.9876875,
+      "D_all+temporal": 0.9993090452261306
+    },
+    {
+      "fault": 3,
+      "description": "D Feed temperature (Step)",
+      "A_raw": 0.0210625,
+      "B_residuals": 0.02125,
+      "C_raw+resid": 0.02253125,
+      "D_all+temporal": 0.015295226130653266
+    },
+    {
+      "fault": 4,
+      "description": "Reactor cooling water inlet temperature (Step)",
+      "A_raw": 0.999625,
+      "B_residuals": 0.98253125,
+      "C_raw+resid": 0.9999375,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 5,
+      "description": "Condenser cooling water inlet temperature (Ste",
+      "A_raw": 0.2723125,
+      "B_residuals": 0.234375,
+      "C_raw+resid": 0.28003125,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 6,
+      "description": "A Feed loss (Step)",
+      "A_raw": 1.0,
+      "B_residuals": 0.9918125,
+      "C_raw+resid": 1.0,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 7,
+      "description": "C Header pressure loss - reduced availability ",
+      "A_raw": 1.0,
+      "B_residuals": 0.343875,
+      "C_raw+resid": 1.0,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 8,
+      "description": "A, B, C Feed composition (Random variation)",
+      "A_raw": 0.97284375,
+      "B_residuals": 0.93525,
+      "C_raw+resid": 0.97321875,
+      "D_all+temporal": 0.9883479899497487
+    },
+    {
+      "fault": 9,
+      "description": "D Feed temperature (Random variation)",
+      "A_raw": 0.022375,
+      "B_residuals": 0.02196875,
+      "C_raw+resid": 0.02328125,
+      "D_all+temporal": 0.015452261306532664
+    },
+    {
+      "fault": 10,
+      "description": "C Feed temperature (Random variation)",
+      "A_raw": 0.40646875,
+      "B_residuals": 0.8446875,
+      "C_raw+resid": 0.7968125,
+      "D_all+temporal": 0.9756909547738694
+    },
+    {
+      "fault": 11,
+      "description": "Reactor cooling water inlet temperature (Rando",
+      "A_raw": 0.77521875,
+      "B_residuals": 0.60903125,
+      "C_raw+resid": 0.79234375,
+      "D_all+temporal": 0.9991834170854271
+    },
+    {
+      "fault": 12,
+      "description": "Condenser cooling water inlet temperature (Ran",
+      "A_raw": 0.987375,
+      "B_residuals": 0.98646875,
+      "C_raw+resid": 0.98903125,
+      "D_all+temporal": 0.9999685929648241
+    },
+    {
+      "fault": 13,
+      "description": "Reaction kinetics (Slow drift)",
+      "A_raw": 0.94559375,
+      "B_residuals": 0.92846875,
+      "C_raw+resid": 0.94509375,
+      "D_all+temporal": 0.9580402010050251
+    },
+    {
+      "fault": 14,
+      "description": "Reactor cooling water valve (Sticking)",
+      "A_raw": 0.99959375,
+      "B_residuals": 0.7618125,
+      "C_raw+resid": 0.99959375,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 15,
+      "description": "Condenser cooling water valve (Sticking)",
+      "A_raw": 0.02390625,
+      "B_residuals": 0.03078125,
+      "C_raw+resid": 0.026125,
+      "D_all+temporal": 0.021042713567839197
+    },
+    {
+      "fault": 16,
+      "description": "Unknown (Random variation)",
+      "A_raw": 0.27075,
+      "B_residuals": 0.3278125,
+      "C_raw+resid": 0.37340625,
+      "D_all+temporal": 0.7863065326633166
+    },
+    {
+      "fault": 17,
+      "description": "Unknown (Random variation)",
+      "A_raw": 0.92225,
+      "B_residuals": 0.49696875,
+      "C_raw+resid": 0.91871875,
+      "D_all+temporal": 0.9693153266331658
+    },
+    {
+      "fault": 18,
+      "description": "Unknown (Step)",
+      "A_raw": 0.93521875,
+      "B_residuals": 0.93728125,
+      "C_raw+resid": 0.93596875,
+      "D_all+temporal": 0.9506281407035176
+    },
+    {
+      "fault": 19,
+      "description": "Unknown (Random variation)",
+      "A_raw": 0.174125,
+      "B_residuals": 0.61325,
+      "C_raw+resid": 0.6669375,
+      "D_all+temporal": 1.0
+    },
+    {
+      "fault": 20,
+      "description": "Unknown (Random variation)",
+      "A_raw": 0.5480625,
+      "B_residuals": 0.66071875,
+      "C_raw+resid": 0.647125,
+      "D_all+temporal": 0.96821608040201
+    }
+  ],
+  "classifier": {
+    "part1": {
+      "accuracy": 0.8353,
+      "macro_f1": 0.8416,
+      "features": 52
+    },
+    "part2": {
+      "accuracy": 0.9091598618090452,
+      "macro_f1": 0.9117388540800567,
+      "features": 112
+    }
+  },
+  "config": {
+    "window": 30,
+    "n_residuals": 6
+  }
+}
