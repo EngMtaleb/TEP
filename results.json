@@ -1,0 +1,53 @@
+{
+  "config": {
+    "n_runs_train": 40,
+    "n_runs_test": 40,
+    "n_features": 52,
+    "pca_components": 31
+  },
+  "anomaly_detection": {
+    "false_alarm_rate": 0.02109375,
+    "t2_limit": 51.684051513671875,
+    "spe_limit": 11.355485916137695,
+    "detection_rate_by_fault": {
+      "3": 0.0211,
+      "9": 0.0224,
+      "15": 0.0239,
+      "19": 0.1741,
+      "16": 0.2708,
+      "5": 0.2723,
+      "10": 0.4065,
+      "20": 0.5481,
+      "11": 0.7752,
+      "17": 0.9222,
+      "18": 0.9352,
+      "13": 0.9456,
+      "8": 0.9728,
+      "12": 0.9874,
+      "2": 0.9875,
+      "1": 0.9976,
+      "14": 0.9996,
+      "4": 0.9996,
+      "6": 1.0,
+      "7": 1.0
+    }
+  },
+  "classification": {
+    "model": "LightGBM \u00b7 200 trees \u00b7 31 leaves \u00b7 depth 8 \u00b7 no tuning",
+    "accuracy": 0.8353328125,
+    "macro_f1": 0.841554683767497,
+    "n_train": 384000,
+    "n_test": 640000,
+    "split": "Training files vs Testing files - separate simulation runs, no leakage"
+  },
+  "attribution_cross_check": {
+    "method": "SHAP (classifier) vs SPE contribution plots (PCA detector)",
+    "top_k": 6,
+    "agreement_by_fault": {
+      "4": 2,
+      "6": 1,
+      "13": 2,
+      "14": 1
+    }
+  }
+}
